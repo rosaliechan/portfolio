@@ -20,14 +20,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Rosalie Chan</a>
+          <h1><%= link_to 'Rosalie Chan', root_path %></h1>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
+            <li><%= link_to 'Home', root_path %></li>
             <li><a href="/about/">About</a></li>
             <li><a href="/blog/">Blog</a></li>
-            <li><a href="/work/">Work</a></li>
+            <li><%= link_to 'Work', portfolio_path %></li>
 						<li><a href="/contact/">Contact</a></li> 
           </ul>
         </div><!--/.nav-collapse -->
