@@ -1,0 +1,24 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+h1, h3, h5, p {
+font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+text-align:center;
+}
+
+button {
+background-color:limegreen;
+}
+
+main {
+margin-top:100px;
+background-image: url("http://1.bp.blogspot.com/-P3dgw9wj4s4/Va5AO5uuHYI/AAAAAAAALCQ/SHDwPQ6OpjY/s1600/20150717_112035.jpg");
+height:500px;
+background-size:cover;
+}
